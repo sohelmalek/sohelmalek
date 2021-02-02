@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&family=Source+Sans+Pro&display=swap');
+:root {
+    --primary-bg-color: #eef9ff;
+    --theme-color: #4c84ff;
+    --text-color: black;
+    --theme-color-lite: #dae1ff;
+}
+
+.dark {
+    --primary-bg-color: #171C32;
+    --text-color: white;
+    --theme-color-lite: #252C48;
+    /* --theme-color-lite: #92a8ff; */
+}
+
+body,
+html {
+    background-color: var(--primary-bg-color);
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    scroll-behavior: smooth;
+}
+
+
+/* 
+   font-family: 'Fraunces', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+*/
+
+.dummy {
+    height: 900px;
+    margin-top: 80px;
+}
+
+
+/* ----dark light mode icon---------------------------------------------- */
+
+.moon-icon {
+    cursor: pointer;
+    /* position: absolute;
+    top: 10px;
+    right: 10px; */
+    color: var(--heading-color);
+    transform: rotate(-25deg);
+}
+
+
+/* ----dark light mode icon END---------------------------------------------- */
+
+
+/* --------scroll to fix navbar animation-------------------------------- */
+
+.main_nav {
+    background-color: var(--theme-color);
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    /* height: auto; */
+    -webkit-transition: all ease-out .5s;
+    -o-transition: all ease-out .5s;
+    transition: all ease-out .5s;
+}
+
+
+/* --------scroll to fix navbar animation END-------------------------------- */
+
+.h_50px {
+    -webkit-transition: all ease-out .5s;
+    -moz-transition: all ease-out .5s;
+    -o-transition: all ease-out .5s;
+    transition: all ease-out .5s;
+    height: 50px;
+}
+
+.h_80px {
+    -webkit-transition: all ease-out .5s;
+    -moz-transition: all ease-out .5s;
+    -o-transition: all ease-out .5s;
+    transition: all ease-out .5s;
+    height: 80px;
+}
+
+
+/* ------NAVBAR---------------------------------------------------------------------------- */
+
+
+/* .navbar {
+    padding: 1.8em 0em 1em 2em;
+} */
+
+.navbar-nav .nav-item {
+    padding: 0em .4em 0em .4em;
+    margin: auto;
+    font-weight: 600;
+    text-align: center;
+}
+
+.navbar-nav .nav-item a {
+    font-size: .9em;
+    transition: .4s;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar-nav .nav-item a p {
+    font-size: 12px;
+    text-align: left;
+    margin: 0;
+}
+
+.nav-contact p {
+    text-align: center;
+    margin: 0;
+}
+
+.navbar-nav .nav-item a:hover,
+.active,
+.navbar-light .navbar-nav .nav-icon i {
+    color: var(--medium-blue) !important;
+}
+
+.nav-item ul {
+    border-radius: 1em;
+    box-shadow: 0 20px 30px 0 rgba(41, 112, 250, 0.2);
+    background-color: var(--body-color);
+}
+
+.navbar-light .navbar-nav .nav-link,
+.dropdown-menu .dropdown-item {
+    font-family: 'Nunito', sans-serif;
+    color: var(--dark-blue);
+}
+
+.navbar-light .navbar-nav .nav-link i {
+    line-height: 35px;
+    font-size: 1.5rem;
+}
+
+.navbar-light .navbar-nav .nav-icon {
+    height: 2.6875rem;
+    padding: 0 0.75rem;
+    background: white;
+    z-index: 2;
+    cursor: pointer;
+    box-shadow: 0 20px 30px 0 rgba(41, 112, 250, 0.2);
+}
+
+.navbar-light .navbar-nav .nav-icon i {
+    width: 1.375rem;
+    height: 1.1875rem;
+    line-height: 35px;
+}
+
+.navbar-brand {
+    color: var(--primary-color) !important;
+}
+
+
+/* ------NAVBAR END---------------------------------------------------------------------------- */
+
+
+/* ----------Go To Top Icon------------------------------------------------------ */
+
+.top-icon:hover {
+    color: white;
+    background: var(--btn-bg-color-trans);
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.top-icon:focus {
+    outline: none;
+}
+
+.top-icon {
+    display: none;
+    z-index: 99;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    background: var(--btn-bg-color);
+    text-align: center;
+    line-height: 39px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -o-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    padding: 0;
+}
+
+
+/* ----------Go To Top Icon END------------------------------------------------------ */
+
+
+/* -----main banenr------------------------------------------------------------- */
+
+.hello {
+    padding: 8px 15px 8px 15px;
+    position: relative;
+    background-color: var(--theme-color);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: var(--primary-bg-color);
+    letter-spacing: 1px;
+}
+
+.hello::before {
+    position: absolute;
+    content: '';
+    bottom: -18px;
+    left: 5px;
+    height: 20px;
+    width: 20px;
+    clip-path: polygon(100% 0, 0 0, 0 100%);
+    background-color: var(--theme-color);
+}
+
+.main-banner-name h1 span {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.main-banner-name h1 span:nth-child(1) {
+    color: var(--text-color);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-banner-name h1 span:nth-child(2) {
+    color: var(--theme-color);
+    font-family: 'Fraunces', serif;
+}
+
+.main-banner-name h4 {
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    color: var(--text-color);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+.main-banner-name p {
+    color: var(--text-color);
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.3;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cust-btn {
+    background-color: var(--theme-color);
+    padding: 10px 20px 10px 20px;
+    color: var(--text-color) !important;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.main-img {
+    background: var(--theme-color-lite);
+    padding: 30px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.main-img1 {
+    background: var(--primary-bg-color);
+}
+
+.main-img::before {
+    position: absolute;
+    content: '';
+    height: 200%;
+    width: 100%;
+    top: -100px;
+    left: -160px;
+    background: var(--theme-color);
+    transform: rotate(-30deg);
+}
+
+.main-img img,
+.main-img1 {
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+
+/* ----About section--------------------------------------------------------- */
+
+.heading {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 46px;
+    font-weight: 600;
+    font-family: 'Fraunces', serif;
+    color: var(--text-color);
+}
+
+.heading span {
+    color: var(--theme-color);
+}
+
+.about-details ul li {
+    list-style: none;
+    color: #94A2C7;
+    list-style: none;
+    flex: 50%;
+    width: 50%;
+    font-size: 16px;
+    padding: 0;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+
+.about-details ul li span:nth-child(2) {
+    color: white;
+    margin-left: 5px;
+}
+
+.about-details ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.about-details-main,
+.resume-main {
+    background: var(--theme-color-lite);
+    border-radius: 10px;
+}
+
+.about-icon-main {}
+
+.about-icon {
+    background-color: rgba(66, 133, 244, 0.1);
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 55px;
+    color: var(--theme-color);
+    font-size: 26px;
+    border-radius: 10px;
+}
+
+.about-icon svg {
+    height: 30px;
+    width: 30px;
+    fill: var(--theme-color);
+}
+
+.about-number {
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.about-number span:nth-child(2) {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    margin-left: -10px;
+    position: relative;
+    top: -15px;
+}
+
+.about-number-text span {
+    color: white;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+
+/* ----About section END--------------------------------------------------------- */
+
+
+/* ----Skills section --------------------------------------------------------- */
+
+.skills-main svg {
+    height: 60px;
+    width: 60px;
+}
+
+.skills-main {
+    text-align: center;
+}
+
+.skills-main h4,
+.progress-div h4 {
+    color: var(--text-color);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.skills-main p {
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .8px;
+    font-size: 16px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+/* 
+font-family: 'Lobster', cursive;
+   font-family: 'Fraunces', serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+
+/* ----Skills section END--------------------------------------------------------- */
+
+
+/* ----my resume section --------------------------------------------------------- */
+
+.progress-single label {
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.progress-div h4 {
+    text-transform: uppercase;
+    border-bottom: 1px solid #616161;
+    padding-bottom: 2%;
+}
+
+.progress-title {
+    position: relative;
+}
+
+.progress-title::before {
+    position: absolute;
+    content: '';
+    bottom: -2.5px;
+    left: 0;
+    width: 25%;
+    border-radius: 25px;
+    height: 4px;
+    background: var(--theme-color);
+}
+
+
+/* ----my resume section END--------------------------------------------------------- */
+
+
+/* ------media query------------------------------------------- */
+
+@media only screen and (max-width: 768px) {
+    .main-banner-name h1 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 576px) {
+    .about-details ul li {
+        text-decoration: none;
+        font-size: 17px;
+        list-style: none;
+        color: white;
+        margin-left: 10px;
+        margin-right: 10px;
+        flex: 100%;
+        width: 100%;
+        margin-bottom: 13px;
+    }
+}
