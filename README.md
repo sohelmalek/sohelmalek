@@ -97,8 +97,8 @@ Recent work includes a multi-phase admin panel (Next.js + MySQL) with TOTP two-f
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
 
-## GitHub Stats
-
+<!-- ## GitHub Stats -->
+<!-- 
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=sohelmalek&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0A0A0A&title_color=3B82F6&icon_color=3B82F6&text_color=9AA4B2&ring_color=3B82F6" width="49%" alt="GitHub Stats"/>
@@ -108,7 +108,7 @@ Recent work includes a multi-phase admin panel (Next.js + MySQL) with TOTP two-f
 
 </div>
 
-<img src="./assets/divider.svg" width="100%" alt=""/>
+<img src="./assets/divider.svg" width="100%" alt=""/> -->
 
 ## Activity Graph
 
