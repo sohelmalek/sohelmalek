@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://sohelmalek.github.io/sohelmalek/assets/banner1.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://sohelmalek.github.io/sohelmalek/assets/banner_1.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://sohelmalek.github.io/sohelmalek/assets/banner-light.svg">
-  <img alt="Sohel Malek banner" src="https://sohelmalek.github.io/sohelmalek/assets/banner.svg" width="100%">
+  <img alt="Sohel Malek banner" src="https://sohelmalek.github.io/sohelmalek/assets/banner_1.svg" width="100%">
 </picture>
 
 <br> 
