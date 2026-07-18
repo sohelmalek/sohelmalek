@@ -1,0 +1,75 @@
+<svg width="900" height="180" viewBox="0 0 900 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="trophyBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#151515"/>
+      <stop offset="100%" stop-color="#1a1d24"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <style>.mono{font-family:Consolas,Menlo,monospace}.sans{font-family:-apple-system,Segoe UI,sans-serif}</style>
+  </defs>
+
+  <!-- 4 achievement cards -->
+  <g transform="translate(0,0)">
+    <!-- template repeated manually with per-card timing -->
+    <g transform="translate(10,10)">
+      <rect width="205" height="160" rx="14" fill="url(#trophyBg)" stroke="#2a2f3a" opacity="0">
+        <animate attributeName="opacity" from="0" to="1" begin="0.1s" dur="0.6s" fill="freeze"/>
+      </rect>
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" begin="0.1s" dur="0.6s" fill="freeze"/>
+        <circle cx="102" cy="52" r="30" fill="none" stroke="#6CB8E6" stroke-width="2.5"/>
+        <path d="M92,52 l7,7 l14,-16" fill="none" stroke="#6CB8E6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="102" y="104" text-anchor="middle" class="sans" font-size="13" font-weight="700" fill="#F8F8F6">Pull Shark</text>
+        <text x="102" y="122" text-anchor="middle" class="mono" font-size="10" fill="#8a93a3">merged PRs</text>
+        <rect x="30" y="140" width="145" height="4" fill="url(#shine)"/>
+      </g>
+    </g>
+
+    <g transform="translate(232,10)">
+      <rect width="205" height="160" rx="14" fill="url(#trophyBg)" stroke="#2a2f3a" opacity="0">
+        <animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.6s" fill="freeze"/>
+      </rect>
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.6s" fill="freeze"/>
+        <rect x="82" y="26" width="40" height="52" rx="4" fill="none" stroke="#E63946" stroke-width="2.5"/>
+        <circle cx="102" cy="42" r="6" fill="#E63946"/>
+        <path d="M92,66 h20 M92,72 h20" stroke="#E63946" stroke-width="2"/>
+        <text x="102" y="104" text-anchor="middle" class="sans" font-size="13" font-weight="700" fill="#F8F8F6">Quickdraw</text>
+        <text x="102" y="122" text-anchor="middle" class="mono" font-size="10" fill="#8a93a3">fast issue close</text>
+        <rect x="30" y="140" width="145" height="4" fill="url(#shine)"/>
+      </g>
+    </g>
+
+    <g transform="translate(454,10)">
+      <rect width="205" height="160" rx="14" fill="url(#trophyBg)" stroke="#2a2f3a" opacity="0">
+        <animate attributeName="opacity" from="0" to="1" begin="0.5s" dur="0.6s" fill="freeze"/>
+      </rect>
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" begin="0.5s" dur="0.6s" fill="freeze"/>
+        <path d="M102,24 l10,20 l22,3 l-16,16 l4,22 l-20,-11 l-20,11 l4,-22 l-16,-16 l22,-3 z"
+          fill="none" stroke="#6CB8E6" stroke-width="2.5" stroke-linejoin="round"/>
+        <text x="102" y="104" text-anchor="middle" class="sans" font-size="13" font-weight="700" fill="#F8F8F6">Starstruck</text>
+        <text x="102" y="122" text-anchor="middle" class="mono" font-size="10" fill="#8a93a3">42 stars earned</text>
+        <rect x="30" y="140" width="145" height="4" fill="url(#shine)"/>
+      </g>
+    </g>
+
+    <g transform="translate(676,10)">
+      <rect width="205" height="160" rx="14" fill="url(#trophyBg)" stroke="#2a2f3a" opacity="0">
+        <animate attributeName="opacity" from="0" to="1" begin="0.7s" dur="0.6s" fill="freeze"/>
+      </rect>
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" begin="0.7s" dur="0.6s" fill="freeze"/>
+        <path d="M82,68 q20,-32 40,0 q20,-32 -40,-30 q-20,-2 0,30" fill="none" stroke="#E63946" stroke-width="2.5"/>
+        <circle cx="102" cy="50" r="14" fill="none" stroke="#E63946" stroke-width="2.5"/>
+        <text x="102" y="104" text-anchor="middle" class="sans" font-size="13" font-weight="700" fill="#F8F8F6">4-Year Club</text>
+        <text x="102" y="122" text-anchor="middle" class="mono" font-size="10" fill="#8a93a3">building since 2021</text>
+        <rect x="30" y="140" width="145" height="4" fill="url(#shine)"/>
+      </g>
+    </g>
+  </g>
+</svg>
