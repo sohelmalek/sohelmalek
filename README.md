@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://sohelmalek.github.io/sohelmalek/banner1.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://sohelmalek.github.io/sohelmalek/banner-light.svg">
-  <img alt="Sohel Malek banner" src="https://sohelmalek.github.io/sohelmalek/banner.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://sohelmalek.github.io/sohelmalek/assets/banner1.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://sohelmalek.github.io/sohelmalek/assets/banner-light.svg">
+  <img alt="Sohel Malek banner" src="https://sohelmalek.github.io/sohelmalek/assets/banner.svg" width="100%">
 </picture>
 
 <br> 
@@ -32,7 +32,7 @@ Freelance web designer & developer based in **Gujarat, India**, with 4+ years of
 ## ID Badge
 
 <div align="center">
-<img src="https://sohelmalek.github.io/sohelmalek/lanyard.svg" width="260" alt="Sohel Malek ID badge">
+<img src="https://sohelmalek.github.io/sohelmalek/assets/lanyard.svg" width="260" alt="Sohel Malek ID badge">
 </div>
 
 <br>
@@ -102,8 +102,8 @@ Custom WordPress, Next.js, and Tailwind builds for businesses across healthcare,
 ## GitHub Stats
 
 <div align="center">
-<img src="https://sohelmalek.github.io/sohelmalek/stats.svg" width="48%" alt="GitHub stats">
-<img src="https://sohelmalek.github.io/sohelmalek/langs.svg" width="48%" alt="Top languages">
+<img src="https://sohelmalek.github.io/sohelmalek/assets/stats.svg" width="48%" alt="GitHub stats">
+<img src="https://sohelmalek.github.io/sohelmalek/assets/langs.svg" width="48%" alt="Top languages">
 </div>
 
 <br>
@@ -111,7 +111,7 @@ Custom WordPress, Next.js, and Tailwind builds for businesses across healthcare,
 ## Achievements
 
 <div align="center">
-<img src="https://sohelmalek.github.io/sohelmalek/trophies.svg" width="100%" alt="GitHub trophies">
+<img src="https://sohelmalek.github.io/sohelmalek/assets/trophies.svg" width="100%" alt="GitHub trophies">
 </div>
 
 <br>
@@ -119,9 +119,9 @@ Custom WordPress, Next.js, and Tailwind builds for businesses across healthcare,
 ## Contribution Activity
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://sohelmalek.github.io/sohelmalek/snake.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://sohelmalek.github.io/sohelmalek/snake-light.svg">
-  <img alt="contribution snake" src="https://sohelmalek.github.io/sohelmalek/snake.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://sohelmalek.github.io/sohelmalek/assets/snake.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://sohelmalek.github.io/sohelmalek/assets/snake-light.svg">
+  <img alt="contribution snake" src="https://sohelmalek.github.io/sohelmalek/assets/snake.svg" width="100%">
 </picture>
 
 <sub>Generated daily by the <a href="./.github/workflows/snake.yml">snake workflow</a> — populates automatically after the first Action run.</sub>
