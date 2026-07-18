@@ -185,7 +185,7 @@
         <text x="20" y="148" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.8s" dur="0.5s" fill="freeze"/><tspan fill="#8a93a3">05</tspan><tspan dx="12" fill="#F8F8F6">  );</tspan></text>
       </g>
     </g>
-
+ 
     <!-- ================= AVATAR HOLOGRAPHIC PANEL ================= -->
     <g filter="url(#softShadow)">
       <rect x="700" y="150" width="500" height="500" rx="20" fill="#101318" stroke="#6CB8E6" stroke-opacity="0.3" stroke-width="1.5"/>
