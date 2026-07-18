@@ -119,9 +119,9 @@ Custom WordPress, Next.js, and Tailwind builds for businesses across healthcare,
 ## Contribution Activity
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sohelmalek/sohelmalek/output/snake.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sohelmalek/sohelmalek/output/snake-light.svg">
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/sohelmalek/sohelmalek/output/snake.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/snake.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/snake-light.svg">
+  <img alt="contribution snake" src="./assets/snake.svg" width="100%">
 </picture>
 
 <sub>Generated daily by the <a href="./.github/workflows/snake.yml">snake workflow</a> — populates automatically after the first Action run.</sub>
