@@ -1,7 +1,7 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://sohelmalek.github.io/sohelmalek/banner.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://sohelmalek.github.io/sohelmalek/banner1.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://sohelmalek.github.io/sohelmalek/banner-light.svg">
   <img alt="Sohel Malek banner" src="https://sohelmalek.github.io/sohelmalek/banner.svg" width="100%">
 </picture>
